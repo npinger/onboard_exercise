@@ -46,7 +46,7 @@ class BlogService:
 		comment_repository: CommentRepositoryInterface,
 		post_repository: PostRepositoryInterface,
 		view_repository: ViewRepositoryInteface
-	)
+	):
 	"""
 	Notes: I imported comment, post and view repositories because
 	there are definitely writing to those tables.
