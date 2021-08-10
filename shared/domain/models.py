@@ -91,10 +91,10 @@ class BaseDomainModel(ABC):
 				raise ValueError("Required field %s not found" % field)
 
 	def __dict__(self):
-	"""
-	Returns DomainField attributes as key, value dictionary.
-	"""
-	raise NotImplementedError
+		"""
+		Returns DomainField attributes as key, value dictionary.
+		"""
+		raise NotImplementedError
 
 	def __eq__(self, other):
 		"""
