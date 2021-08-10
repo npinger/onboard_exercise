@@ -61,6 +61,6 @@ Note: I'm not totally in love with the `_validate_field_name()` pattern. It look
 
 ## Finally, a Note on CQRS
 
-I put some semi-detailed thoughts on CQRS into ./blog/application/blog_service.py. I request that you read this and re-look at chapter 12 of the Cosmic Python book that was shared to kick off this exercise. I wanted to follow the book vs. following our existing code patterns and the instructions as written, and raised some future considerations that I believe are worth some serious thought.
+I put some semi-detailed thoughts on CQRS into ./blog/application/blog_service.py. I re-looked at chapter 12 of the Cosmic Python book that was shared to kick off this exercise. I wanted to follow the book vs. following our existing code patterns and the instructions as written and raised some future considerations that I believe are worth some serious thought.
 
 In the end, I followed the exercise instructions over the book's suggestions around CQRS to prove that I understood the instructions. I also described in comments what I would have preferred to do given expectations around future growth of the user-facing system.
