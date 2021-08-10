@@ -113,7 +113,7 @@ class BlogService:
 
 		returns
 			{
-				"pk": <
+				"pk": <post pk>,
 				"title": <post tilte>,
 				"author": <author first and last name>,
 				"published_at": <published at date>,
